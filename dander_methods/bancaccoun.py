@@ -9,6 +9,8 @@ class BancAccount:
         
         if isinstance(other, (int, float)):
             return self.balance + other
+        
+        raise NotImplemented
 
 
 Beka = BancAccount("Beka", 1000)
